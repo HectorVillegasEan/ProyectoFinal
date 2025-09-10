@@ -1,0 +1,197 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.background-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Texto inicial */
+.description {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Animaciones */
+.fade-in {
+  animation: fadeIn 0.7s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Barra de búsqueda */
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.7s ease;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  backdrop-filter: blur(40px);
+  box-shadow: 0px 0px 10px rgba(37, 43, 97, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.search-bar input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 25px 0 0 25px;
+  border: none;
+  outline: none;
+  width: 280px;
+  max-width: 80vw;
+  background: transparent;
+}
+
+.search-bar input::placeholder {
+  color: rgba(255, 255, 255, 0.6); 
+}
+
+.search-bar .search-button {
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  background: transparent;
+  margin-top: 0.1em;
+  outline: none;
+  transition: transform 0.7s ease;
+}
+
+.search-bar .search-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.search-bar .search-button:hover {
+  transform: scale(1.2);
+}
+
+/* Cuando ya se hizo la búsqueda, la barra sube arriba */
+.search-top {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  z-index: 10;
+}
+
+/* Resultados */
+.results {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Card de película */
+
+.movie-card {
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 90vw; 
+  max-width: 780px;
+  border-radius: 25px;
+  backdrop-filter: blur(40px);
+  box-shadow: 0px 0px 10px rgba(37, 43, 97, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  animation: fadeIn 2.2s ease forwards;
+}
+
+.movie-card img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movie-info {
+  text-align: left;
+}
+
+.movie-info h2 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.movie-info p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
+
+/* Ancho de la barra */
+::-webkit-scrollbar {
+  width: 8px; /* grosor de la barra */
+}
+
+/* Fondo de la barra (la pista) */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); 
+  border-radius: 10px;
+}
+
+/* La parte que se mueve (el pulgar) */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; /* color de la barrita */
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+/* Hover sobre la barrita */
+::-webkit-scrollbar-thumb:hover {
+  background: #729fff; /* color más oscuro cuando pasas el mouse */
+}
+

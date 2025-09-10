@@ -1,0 +1,226 @@
+[
+  {
+    "title": "El Origen",
+    "director": "Christopher Nolan",
+    "year": 2010,
+    "genre": "Ciencia Ficción",
+    "description": "Un ladrón que roba secretos corporativos a través de la tecnología de soñar lúcidamente tiene la misión de implantar una idea en la mente de un CEO.",
+    "poster": "001.jpg"
+  },
+  {
+    "title": "Matrix",
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "year": 1999,
+    "genre": "Ciencia Ficción",
+    "description": "Un programador de computadoras descubre que la realidad es una simulación creada por máquinas inteligentes y se une a un grupo de rebeldes para luchar contra ellas.",
+    "poster": "002.jpg"
+  },
+  {
+    "title": "Interestelar",
+    "director": "Christopher Nolan",
+    "year": 2014,
+    "genre": "Ciencia Ficción",
+    "description": "Un grupo de exploradores viaja a través de un agujero de gusano para asegurar la supervivencia de la humanidad en otro planeta.",
+    "poster": "003.jpg"
+  },
+  {
+    "title": "Pulp Fiction: Tiempos Violentos",
+    "director": "Quentin Tarantino",
+    "year": 1994,
+    "genre": "Crimen",
+    "description": "Las vidas de dos sicarios de la mafia, un boxeador, la esposa de un gánster y dos ladrones de poca monta se entrelazan en cuatro historias de violencia y redención.",
+    "poster": "004.jpg"
+  },
+  {
+    "title": "El Club de la Pelea",
+    "director": "David Fincher",
+    "year": 1999,
+    "genre": "Drama",
+    "description": "Un oficinista con insomnio y un enigmático fabricante de jabón forman un club de lucha subterráneo que se convierte en algo mucho más grande.",
+    "poster": "005.jpg"
+  },
+  {
+    "title": "Sueños de Fuga",
+    "director": "Frank Darabont",
+    "year": 1994,
+    "genre": "Drama",
+    "description": "Dos hombres encarcelados se unen a lo largo de varios años, encontrando consuelo y redención a través de actos de decencia común.",
+    "poster": "006.jpg"
+  },
+  {
+    "title": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "year": 1994,
+    "genre": "Drama",
+    "description": "La vida de un hombre con un coeficiente intelectual bajo, pero con un buen corazón, que sin quererlo, influencia varios eventos históricos importantes en Estados Unidos.",
+    "poster": "007.jpg"
+  },
+  {
+    "title": "El Señor de los Anillos: La Comunidad del Anillo",
+    "director": "Peter Jackson",
+    "year": 2001,
+    "genre": "Fantasía",
+    "description": "Un joven hobbit, Frodo Bolsón, se embarca en una aventura para destruir un poderoso anillo, acompañado de una comunidad de aliados.",
+    "poster": "008.jpg"
+  },
+  {
+    "title": "El Padrino",
+    "director": "Francis Ford Coppola",
+    "year": 1972,
+    "genre": "Crimen",
+    "description": "Un patriarca de una poderosa familia de la mafia transfiere el control de su imperio clandestino a su hijo reacio.",
+    "poster": "009.jpg"
+  },
+  {
+    "title": "Nomadland",
+    "director": "Chloé Zhao",
+    "year": 2020,
+    "genre": "Drama",
+    "description": "Una mujer viaja por el Oeste americano en su camioneta tras perderlo todo durante la Gran Recesión.",
+    "poster": "nomadland.jpg"
+  },
+  {
+    "title": "Promising Young Woman",
+    "director": "Emerald Fennell",
+    "year": 2020,
+    "genre": "Thriller / Drama",
+    "description": "Una mujer busca justicia vengando a su mejor amiga tras un trauma pasado.",
+    "poster": "promising_young_woman.jpg"
+  },
+  {
+    "title": "Drive My Car",
+    "director": "Ryusuke Hamaguchi",
+    "year": 2021,
+    "genre": "Drama",
+    "description": "Un director de teatro reconstruye su vida emocional tras una tragedia familiar.",
+    "poster": "drive_my_car.jpg"
+  },
+  {
+    "title": "Dune",
+    "director": "Denis Villeneuve",
+    "year": 2021,
+    "genre": "Ciencia Ficción",
+    "description": "La joven noble Paul Atreides viaja al planeta desértico Arrakis en una peligrosa misión política.",
+    "poster": "dune.jpg"
+  },
+  {
+    "title": "The Batman",
+    "director": "Matt Reeves",
+    "year": 2022,
+    "genre": "Acción / Crimen",
+    "description": "Batman investiga una serie de asesinatos y se enfrenta al reinado del crimen en Gotham.",
+    "poster": "the_batman.jpg"
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "director": "Joseph Kosinski",
+    "year": 2022,
+    "genre": "Acción / Drama",
+    "description": "El piloto Maverick regresa como instructor de la nueva generación de aviadores de élite.",
+    "poster": "top_gun_maverick.jpg"
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "director": "Daniel Kwan, Daniel Scheinert",
+    "year": 2022,
+    "genre": "Ciencia Ficción / Comedia",
+    "description": "Una mujer explora múltiples realidades paralelas para salvar el multiverso.",
+    "poster": "everything_everywhere.jpg"
+  },
+  {
+    "title": "Oppenheimer",
+    "director": "Christopher Nolan",
+    "year": 2023,
+    "genre": "Biografía / Drama",
+    "description": "La historia del físico J. Robert Oppenheimer y el desarrollo de la bomba atómica.",
+    "poster": "oppenheimer.jpg"
+  },
+  {
+    "title": "John Wick: Chapter 4",
+    "director": "Chad Stahelski",
+    "year": 2023,
+    "genre": "Acción",
+    "description": "John Wick enfrenta su mayor desafío mientras trata de liberarse del control del High Table.",
+    "poster": "john_wick_ch4.jpg"
+  },
+  {
+    "title": "The Super Mario Bros. Movie",
+    "director": "Aaron Horvath, Michael Jelenic",
+    "year": 2023,
+    "genre": "Animación / Aventura",
+    "description": "Mario y Luigi se embarcan en una aventura en el Reino Champiñón para rescatar a la Princesa Peach.",
+    "poster": "super_mario_movie.jpg"
+  },
+  {
+    "title": "Barbie",
+    "director": "Greta Gerwig",
+    "year": 2023,
+    "genre": "Comedy / Fantasy",
+    "description": "Barbie parte hacia el mundo real tras cuestionar su existencia perfecta en Barbieland.",
+    "poster": "barbie.jpg"
+  },
+  {
+    "title": "Dune: Part Two",
+    "director": "Denis Villeneuve",
+    "year": 2024,
+    "genre": "Ciencia Ficción",
+    "description": "Continuación de la saga de Paul Atreides mientras lidera la revuelta en Arrakis.",
+    "poster": "dune_part_two.jpg"
+  },
+  {
+    "title": "Anatomy of a Fall",
+    "director": "Justine Triet",
+    "year": 2023,
+    "genre": "Drama / Crimen",
+    "description": "Un juicio por homicidio pone en la mira la relación ambigua entre un escritor y su esposa.",
+    "poster": "anatomy_of_a_fall.jpg"
+  },
+  {
+    "title": "The Banshees of Inisherin",
+    "director": "Martin McDonagh",
+    "year": 2022,
+    "genre": "Comedia Negra / Drama",
+    "description": "Dos amigos en una isla remota sufren una ruptura inesperada con consecuencias trágico-cómicas.",
+    "poster": "banshees_of_inisherin.jpg"
+  },
+  {
+    "title": "Poor Things",
+    "director": "Yorgos Lanthimos",
+    "year": 2023,
+    "genre": "Ciencia Ficción / Drama",
+    "description": "Una mujer reconstruida científicamente explora la vida y la identidad en un viaje excéntrico.",
+    "poster": "poor_things.jpg"
+  },
+  {
+    "title": "KPop Demon Hunters",
+    "director": "Maggie Kang, Chris Appelhans",
+    "year": 2025,
+    "genre": "Animación / Fantasía",
+    "description": "Un grupo de idols del K-pop luchan contra demonios mientras mantienen su carrera musical.",
+    "poster": "kpop_demon_hunters.jpg"
+  },
+  {
+    "title": "The Zone of Interest",
+    "director": "Jonathan Glazer",
+    "year": 2023,
+    "genre": "Drama / Historia",
+    "description": "Una mirada perturbadora a la vida de altos oficiales nazis viviendo junto a Auschwitz.",
+    "poster": "zone_of_interest.jpg"
+  },
+  {
+    "title": "Aftersun",
+    "director": "Charlotte Wells",
+    "year": 2022,
+    "genre": "Drama",
+    "description": "Una reflexión nostálgica sobre la relación entre un padre y su hija durante unas vacaciones.",
+    "poster": "aftersun.jpg"
+  },
+  {
+    "title": "The Fabelmans",
+    "director": "Steven Spielberg",
+    "year": 2022,
+    "genre": "Biografía / Drama",
+    "description": "Una mirada a la infancia y el despertar cinematográfico de Spielberg a través de recuerdos familiares.",
+    "poster": "fabelmans.jpg"
+  }
+]
